@@ -63,3 +63,45 @@ header {
 #favCons img {
     max-height: 40px;
 }
+
+#myWork {
+    font-size: 36px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#mainContent {
+    grid-column: 2 / 6;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    background-color: #ebebeb;
+    
+}
+
+#myProjects {
+    display: grid;
+    grid-row: 1;
+    grid-column: 1 / 2;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.projectSheet {
+    margin: auto;
+}
+
+.projectIMG img {
+    max-width: 250px;
+}
+
+.projectIcons img {
+    max-width: 40px;
+}
