@@ -105,3 +105,11 @@ header {
 .projectIcons img {
     max-width: 40px;
 }
+
+footer {
+    margin-top: 30px;
+}
+
+#footerIMG img {
+    max-width: 400px;
+}
